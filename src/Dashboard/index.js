@@ -60,7 +60,7 @@ function Dashboard() {
           className="w-full flex space-x-4 items-center justify-center"
         >
           <TextArea
-            className="bg-white border border-gray-200 rounded w-2/5 p-3 focus:outline-none drop-shadow-2xl resize-none"
+            className="bg-white border border-gray-200 rounded w-2/5 p-2.5 focus:outline-none drop-shadow-xl resize-none"
             id="query-input"
             value={sqlQuery}
             onChange={handleQueryChange}
@@ -69,7 +69,7 @@ function Dashboard() {
           <Button
             type="submit"
             variant="contained"
-            className="!text-sm !text-white !capitalize !px-6 !py-3 !drop-shadow-2xl"
+            className="!text-sm !text-white !capitalize !px-6 !py-3 !drop-shadow-xl"
             disabled={!sqlQuery?.trim().length > 0}
           >
             Search

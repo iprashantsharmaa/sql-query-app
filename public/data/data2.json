@@ -1,6 +1,6 @@
 [
   {
-    "ID": "ALFKI",
+    "id": "ALFKI",
     "companyName": "Alfreds Futterkiste",
     "contactName": "Maria Anders",
     "contactTitle": "Sales Representative",
@@ -13,7 +13,7 @@
     "fax": "030-0076545"
   },
   {
-    "ID": "ANATR",
+    "id": "ANATR",
     "companyName": "Ana Trujillo Emparedados y helados",
     "contactName": "Ana Trujillo",
     "contactTitle": "Owner",
@@ -26,7 +26,7 @@
     "fax": "(5) 555-3745"
   },
   {
-    "ID": "ANTON",
+    "id": "ANTON",
     "companyName": "Antonio Moreno Taquería",
     "contactName": "Antonio Moreno",
     "contactTitle": "Owner",
@@ -39,7 +39,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "AROUT",
+    "id": "AROUT",
     "companyName": "Around the Horn",
     "contactName": "Thomas Hardy",
     "contactTitle": "Sales Representative",
@@ -52,7 +52,7 @@
     "fax": "(171) 555-6750"
   },
   {
-    "ID": "BERGS",
+    "id": "BERGS",
     "companyName": "Berglunds snabbköp",
     "contactName": "Christina Berglund",
     "contactTitle": "Order Administrator",
@@ -65,7 +65,7 @@
     "fax": "0921-12 34 67"
   },
   {
-    "ID": "BLAUS",
+    "id": "BLAUS",
     "companyName": "Blauer See Delikatessen",
     "contactName": "Hanna Moos",
     "contactTitle": "Sales Representative",
@@ -78,7 +78,7 @@
     "fax": "0621-08924"
   },
   {
-    "ID": "BLONP",
+    "id": "BLONP",
     "companyName": "Blondesddsl père et fils",
     "contactName": "Frédérique Citeaux",
     "contactTitle": "Marketing Manager",
@@ -91,7 +91,7 @@
     "fax": "88.60.15.32"
   },
   {
-    "ID": "BOLID",
+    "id": "BOLID",
     "companyName": "Bólido Comidas preparadas",
     "contactName": "Martín Sommer",
     "contactTitle": "Owner",
@@ -104,7 +104,7 @@
     "fax": "(91) 555 91 99"
   },
   {
-    "ID": "BONAP",
+    "id": "BONAP",
     "companyName": "Bon app'",
     "contactName": "Laurence Lebihan",
     "contactTitle": "Owner",
@@ -117,7 +117,7 @@
     "fax": "91.24.45.41"
   },
   {
-    "ID": "BOTTM",
+    "id": "BOTTM",
     "companyName": "Bottom-Dollar Markets",
     "contactName": "Elizabeth Lincoln",
     "contactTitle": "Accounting Manager",
@@ -130,7 +130,7 @@
     "fax": "(604) 555-3745"
   },
   {
-    "ID": "BSBEV",
+    "id": "BSBEV",
     "companyName": "B's Beverages",
     "contactName": "Victoria Ashworth",
     "contactTitle": "Sales Representative",
@@ -143,7 +143,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "CACTU",
+    "id": "CACTU",
     "companyName": "Cactus Comidas para llevar",
     "contactName": "Patricio Simpson",
     "contactTitle": "Sales Agent",
@@ -156,7 +156,7 @@
     "fax": "(1) 135-4892"
   },
   {
-    "ID": "CENTC",
+    "id": "CENTC",
     "companyName": "Centro comercial Moctezuma",
     "contactName": "Francisco Chang",
     "contactTitle": "Marketing Manager",
@@ -169,7 +169,7 @@
     "fax": "(5) 555-7293"
   },
   {
-    "ID": "CHOPS",
+    "id": "CHOPS",
     "companyName": "Chop-suey Chinese",
     "contactName": "Yang Wang",
     "contactTitle": "Owner",
@@ -182,7 +182,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "COMMI",
+    "id": "COMMI",
     "companyName": "Comércio Mineiro",
     "contactName": "Pedro Afonso",
     "contactTitle": "Sales Associate",
@@ -195,7 +195,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "CONSH",
+    "id": "CONSH",
     "companyName": "Consolidated Holdings",
     "contactName": "Elizabeth Brown",
     "contactTitle": "Sales Representative",
@@ -208,7 +208,7 @@
     "fax": "(171) 555-9199"
   },
   {
-    "ID": "DRACD",
+    "id": "DRACD",
     "companyName": "Drachenblut Delikatessen",
     "contactName": "Sven Ottlieb",
     "contactTitle": "Order Administrator",
@@ -221,7 +221,7 @@
     "fax": "0241-059428"
   },
   {
-    "ID": "DUMON",
+    "id": "DUMON",
     "companyName": "Du monde entier",
     "contactName": "Janine Labrune",
     "contactTitle": "Owner",
@@ -234,7 +234,7 @@
     "fax": "40.67.89.89"
   },
   {
-    "ID": "EASTC",
+    "id": "EASTC",
     "companyName": "Eastern Connection",
     "contactName": "Ann Devon",
     "contactTitle": "Sales Agent",
@@ -247,7 +247,7 @@
     "fax": "(171) 555-3373"
   },
   {
-    "ID": "ERNSH",
+    "id": "ERNSH",
     "companyName": "Ernst Handel",
     "contactName": "Roland Mendel",
     "contactTitle": "Sales Manager",
@@ -260,7 +260,7 @@
     "fax": "7675-3426"
   },
   {
-    "ID": "FAMIA",
+    "id": "FAMIA",
     "companyName": "Familia Arquibaldo",
     "contactName": "Aria Cruz",
     "contactTitle": "Marketing Assistant",
@@ -273,7 +273,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "FISSA",
+    "id": "FISSA",
     "companyName": "FISSA Fabrica Inter. Salchichas S.A.",
     "contactName": "Diego Roel",
     "contactTitle": "Accounting Manager",
@@ -286,7 +286,7 @@
     "fax": "(91) 555 55 93"
   },
   {
-    "ID": "FOLIG",
+    "id": "FOLIG",
     "companyName": "Folies gourmandes",
     "contactName": "Martine Rancé",
     "contactTitle": "Assistant Sales Agent",
@@ -299,7 +299,7 @@
     "fax": "20.16.10.17"
   },
   {
-    "ID": "FOLKO",
+    "id": "FOLKO",
     "companyName": "Folk och fä HB",
     "contactName": "Maria Larsson",
     "contactTitle": "Owner",
@@ -312,7 +312,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "FRANK",
+    "id": "FRANK",
     "companyName": "Frankenversand",
     "contactName": "Peter Franken",
     "contactTitle": "Marketing Manager",
@@ -325,7 +325,7 @@
     "fax": "089-0877451"
   },
   {
-    "ID": "FRANR",
+    "id": "FRANR",
     "companyName": "France restauration",
     "contactName": "Carine Schmitt",
     "contactTitle": "Marketing Manager",
@@ -338,7 +338,7 @@
     "fax": "40.32.21.20"
   },
   {
-    "ID": "FRANS",
+    "id": "FRANS",
     "companyName": "Franchi S.p.A.",
     "contactName": "Paolo Accorti",
     "contactTitle": "Sales Representative",
@@ -351,7 +351,7 @@
     "fax": "011-4988261"
   },
   {
-    "ID": "FURIB",
+    "id": "FURIB",
     "companyName": "Furia Bacalhau e Frutos do Mar",
     "contactName": "Lino Rodriguez",
     "contactTitle": "Sales Manager",
@@ -364,7 +364,7 @@
     "fax": "(1) 354-2535"
   },
   {
-    "ID": "GALED",
+    "id": "GALED",
     "companyName": "Galería del gastrónomo",
     "contactName": "Eduardo Saavedra",
     "contactTitle": "Marketing Manager",
@@ -377,7 +377,7 @@
     "fax": "(93) 203 4561"
   },
   {
-    "ID": "GODOS",
+    "id": "GODOS",
     "companyName": "Godos Cocina Típica",
     "contactName": "José Pedro Freyre",
     "contactTitle": "Sales Manager",
@@ -390,7 +390,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "GOURL",
+    "id": "GOURL",
     "companyName": "Gourmet Lanchonetes",
     "contactName": "André Fonseca",
     "contactTitle": "Sales Associate",
@@ -403,7 +403,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "GREAL",
+    "id": "GREAL",
     "companyName": "Great Lakes Food Market",
     "contactName": "Howard Snyder",
     "contactTitle": "Marketing Manager",
@@ -416,7 +416,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "GROSR",
+    "id": "GROSR",
     "companyName": "GROSELLA-Restaurante",
     "contactName": "Manuel Pereira",
     "contactTitle": "Owner",
@@ -429,7 +429,7 @@
     "fax": "(2) 283-3397"
   },
   {
-    "ID": "HANAR",
+    "id": "HANAR",
     "companyName": "Hanari Carnes",
     "contactName": "Mario Pontes",
     "contactTitle": "Accounting Manager",
@@ -442,7 +442,7 @@
     "fax": "(21) 555-8765"
   },
   {
-    "ID": "HILAA",
+    "id": "HILAA",
     "companyName": "HILARION-Abastos",
     "contactName": "Carlos Hernández",
     "contactTitle": "Sales Representative",
@@ -455,7 +455,7 @@
     "fax": "(5) 555-1948"
   },
   {
-    "ID": "HUNGC",
+    "id": "HUNGC",
     "companyName": "Hungry Coyote Import Store",
     "contactName": "Yoshi Latimer",
     "contactTitle": "Sales Representative",
@@ -468,7 +468,7 @@
     "fax": "(503) 555-2376"
   },
   {
-    "ID": "HUNGO",
+    "id": "HUNGO",
     "companyName": "Hungry Owl All-Night Grocers",
     "contactName": "Patricia McKenna",
     "contactTitle": "Sales Associate",
@@ -481,7 +481,7 @@
     "fax": "2967 3333"
   },
   {
-    "ID": "ISLAT",
+    "id": "ISLAT",
     "companyName": "Island Trading",
     "contactName": "Helen Bennett",
     "contactTitle": "Marketing Manager",
@@ -494,7 +494,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "KOENE",
+    "id": "KOENE",
     "companyName": "Königlich Essen",
     "contactName": "Philip Cramer",
     "contactTitle": "Sales Associate",
@@ -507,7 +507,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "LACOR",
+    "id": "LACOR",
     "companyName": "La corne d'abondance",
     "contactName": "Daniel Tonini",
     "contactTitle": "Sales Representative",
@@ -520,7 +520,7 @@
     "fax": "30.59.85.11"
   },
   {
-    "ID": "LAMAI",
+    "id": "LAMAI",
     "companyName": "La maison d'Asie",
     "contactName": "Annette Roulet",
     "contactTitle": "Sales Manager",
@@ -533,7 +533,7 @@
     "fax": "61.77.61.11"
   },
   {
-    "ID": "LAUGB",
+    "id": "LAUGB",
     "companyName": "Laughing Bacchus Wine Cellars",
     "contactName": "Yoshi Tannamuri",
     "contactTitle": "Marketing Assistant",
@@ -546,7 +546,7 @@
     "fax": "(604) 555-7293"
   },
   {
-    "ID": "LAZYK",
+    "id": "LAZYK",
     "companyName": "Lazy K Kountry Store",
     "contactName": "John Steel",
     "contactTitle": "Marketing Manager",
@@ -559,7 +559,7 @@
     "fax": "(509) 555-6221"
   },
   {
-    "ID": "LEHMS",
+    "id": "LEHMS",
     "companyName": "Lehmanns Marktstand",
     "contactName": "Renate Messner",
     "contactTitle": "Sales Representative",
@@ -572,7 +572,7 @@
     "fax": "069-0245874"
   },
   {
-    "ID": "LETSS",
+    "id": "LETSS",
     "companyName": "Let's Stop N Shop",
     "contactName": "Jaime Yorres",
     "contactTitle": "Owner",
@@ -585,7 +585,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "LILAS",
+    "id": "LILAS",
     "companyName": "LILA-Supermercado",
     "contactName": "Carlos González",
     "contactTitle": "Accounting Manager",
@@ -598,7 +598,7 @@
     "fax": "(9) 331-7256"
   },
   {
-    "ID": "LINOD",
+    "id": "LINOD",
     "companyName": "LINO-Delicateses",
     "contactName": "Felipe Izquierdo",
     "contactTitle": "Owner",
@@ -611,7 +611,7 @@
     "fax": "(8) 34-93-93"
   },
   {
-    "ID": "LONEP",
+    "id": "LONEP",
     "companyName": "Lonesome Pine Restaurant",
     "contactName": "Fran Wilson",
     "contactTitle": "Sales Manager",
@@ -624,7 +624,7 @@
     "fax": "(503) 555-9646"
   },
   {
-    "ID": "MAGAA",
+    "id": "MAGAA",
     "companyName": "Magazzini Alimentari Riuniti",
     "contactName": "Giovanni Rovelli",
     "contactTitle": "Marketing Manager",
@@ -637,7 +637,7 @@
     "fax": "035-640231"
   },
   {
-    "ID": "MAISD",
+    "id": "MAISD",
     "companyName": "Maison Dewey",
     "contactName": "Catherine Dewey",
     "contactTitle": "Sales Agent",
@@ -650,7 +650,7 @@
     "fax": "(02) 201 24 68"
   },
   {
-    "ID": "MEREP",
+    "id": "MEREP",
     "companyName": "Mère Paillarde",
     "contactName": "Jean Fresnière",
     "contactTitle": "Marketing Assistant",
@@ -663,7 +663,7 @@
     "fax": "(514) 555-8055"
   },
   {
-    "ID": "MORGK",
+    "id": "MORGK",
     "companyName": "Morgenstern Gesundkost",
     "contactName": "Alexander Feuer",
     "contactTitle": "Marketing Assistant",
@@ -676,7 +676,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "NORTS",
+    "id": "NORTS",
     "companyName": "North/South",
     "contactName": "Simon Crowther",
     "contactTitle": "Sales Associate",
@@ -689,7 +689,7 @@
     "fax": "(171) 555-2530"
   },
   {
-    "ID": "OCEAN",
+    "id": "OCEAN",
     "companyName": "Océano Atlántico Ltda.",
     "contactName": "Yvonne Moncada",
     "contactTitle": "Sales Agent",
@@ -702,7 +702,7 @@
     "fax": "(1) 135-5535"
   },
   {
-    "ID": "OLDWO",
+    "id": "OLDWO",
     "companyName": "Old World Delicatessen",
     "contactName": "Rene Phillips",
     "contactTitle": "Sales Representative",
@@ -715,7 +715,7 @@
     "fax": "(907) 555-2880"
   },
   {
-    "ID": "OTTIK",
+    "id": "OTTIK",
     "companyName": "Ottilies Käseladen",
     "contactName": "Henriette Pfalzheim",
     "contactTitle": "Owner",
@@ -728,7 +728,7 @@
     "fax": "0221-0765721"
   },
   {
-    "ID": "PARIS",
+    "id": "PARIS",
     "companyName": "Paris spécialités",
     "contactName": "Marie Bertrand",
     "contactTitle": "Owner",
@@ -741,7 +741,7 @@
     "fax": "(1) 42.34.22.77"
   },
   {
-    "ID": "PERIC",
+    "id": "PERIC",
     "companyName": "Pericles Comidas clásicas",
     "contactName": "Guillermo Fernández",
     "contactTitle": "Sales Representative",
@@ -754,7 +754,7 @@
     "fax": "(5) 545-3745"
   },
   {
-    "ID": "PICCO",
+    "id": "PICCO",
     "companyName": "Piccolo und mehr",
     "contactName": "Georg Pipps",
     "contactTitle": "Sales Manager",
@@ -767,7 +767,7 @@
     "fax": "6562-9723"
   },
   {
-    "ID": "PRINI",
+    "id": "PRINI",
     "companyName": "Princesa Isabel Vinhos",
     "contactName": "Isabel de Castro",
     "contactTitle": "Sales Representative",
@@ -780,7 +780,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "QUEDE",
+    "id": "QUEDE",
     "companyName": "Que Delícia",
     "contactName": "Bernardo Batista",
     "contactTitle": "Accounting Manager",
@@ -793,7 +793,7 @@
     "fax": "(21) 555-4545"
   },
   {
-    "ID": "QUEEN",
+    "id": "QUEEN",
     "companyName": "Queen Cozinha",
     "contactName": "Lúcia Carvalho",
     "contactTitle": "Marketing Assistant",
@@ -806,7 +806,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "QUICK",
+    "id": "QUICK",
     "companyName": "QUICK-Stop",
     "contactName": "Horst Kloss",
     "contactTitle": "Accounting Manager",
@@ -819,7 +819,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "RANCH",
+    "id": "RANCH",
     "companyName": "Rancho grande",
     "contactName": "Sergio Gutiérrez",
     "contactTitle": "Sales Representative",
@@ -832,7 +832,7 @@
     "fax": "(1) 123-5556"
   },
   {
-    "ID": "RATTC",
+    "id": "RATTC",
     "companyName": "Rattlesnake Canyon Grocery",
     "contactName": "Paula Wilson",
     "contactTitle": "Assistant Sales Representative",
@@ -845,7 +845,7 @@
     "fax": "(505) 555-3620"
   },
   {
-    "ID": "REGGC",
+    "id": "REGGC",
     "companyName": "Reggiani Caseifici",
     "contactName": "Maurizio Moroni",
     "contactTitle": "Sales Associate",
@@ -858,7 +858,7 @@
     "fax": "0522-556722"
   },
   {
-    "ID": "RICAR",
+    "id": "RICAR",
     "companyName": "Ricardo Adocicados",
     "contactName": "Janete Limeira",
     "contactTitle": "Assistant Sales Agent",
@@ -871,7 +871,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "RICSU",
+    "id": "RICSU",
     "companyName": "Richter Supermarkt",
     "contactName": "Michael Holz",
     "contactTitle": "Sales Manager",
@@ -884,7 +884,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "ROMEY",
+    "id": "ROMEY",
     "companyName": "Romero y tomillo",
     "contactName": "Alejandra Camino",
     "contactTitle": "Accounting Manager",
@@ -897,7 +897,7 @@
     "fax": "(91) 745 6210"
   },
   {
-    "ID": "SANTG",
+    "id": "SANTG",
     "companyName": "Santé Gourmet",
     "contactName": "Jonas Bergulfsen",
     "contactTitle": "Owner",
@@ -910,20 +910,20 @@
     "fax": "07-98 92 47"
   },
   {
-    "ID": "SAVEA",
+    "id": "SAVEA",
     "companyName": "Save-a-lot Markets",
     "contactName": "Jose Pavarotti",
     "contactTitle": "Sales Representative",
     "address": "187 Suffolk Ln.",
     "city": "Boise",
-    "region": "ID",
+    "region": "id",
     "postalCode": 83720,
     "country": "USA",
     "phone": "(208) 555-8097",
     "fax": "NULL"
   },
   {
-    "ID": "SEVES",
+    "id": "SEVES",
     "companyName": "Seven Seas Imports",
     "contactName": "Hari Kumar",
     "contactTitle": "Sales Manager",
@@ -936,7 +936,7 @@
     "fax": "(171) 555-5646"
   },
   {
-    "ID": "SIMOB",
+    "id": "SIMOB",
     "companyName": "Simons bistro",
     "contactName": "Jytte Petersen",
     "contactTitle": "Owner",
@@ -949,7 +949,7 @@
     "fax": "31 13 35 57"
   },
   {
-    "ID": "SPECD",
+    "id": "SPECD",
     "companyName": "Spécialités du monde",
     "contactName": "Dominique Perrier",
     "contactTitle": "Marketing Manager",
@@ -962,7 +962,7 @@
     "fax": "(1) 47.55.60.20"
   },
   {
-    "ID": "SPLIR",
+    "id": "SPLIR",
     "companyName": "Split Rail Beer & Ale",
     "contactName": "Art Braunschweiger",
     "contactTitle": "Sales Manager",
@@ -975,7 +975,7 @@
     "fax": "(307) 555-6525"
   },
   {
-    "ID": "SUPRD",
+    "id": "SUPRD",
     "companyName": "Suprêmes délices",
     "contactName": "Pascale Cartrain",
     "contactTitle": "Accounting Manager",
@@ -988,7 +988,7 @@
     "fax": "(071) 23 67 22 21"
   },
   {
-    "ID": "THEBI",
+    "id": "THEBI",
     "companyName": "The Big Cheese",
     "contactName": "Liz Nixon",
     "contactTitle": "Marketing Manager",
@@ -1001,7 +1001,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "THECR",
+    "id": "THECR",
     "companyName": "The Cracker Box",
     "contactName": "Liu Wong",
     "contactTitle": "Marketing Assistant",
@@ -1014,7 +1014,7 @@
     "fax": "(406) 555-8083"
   },
   {
-    "ID": "TOMSP",
+    "id": "TOMSP",
     "companyName": "Toms Spezialitäten",
     "contactName": "Karin Josephs",
     "contactTitle": "Marketing Manager",
@@ -1027,7 +1027,7 @@
     "fax": "0251-035695"
   },
   {
-    "ID": "TORTU",
+    "id": "TORTU",
     "companyName": "Tortuga Restaurante",
     "contactName": "Miguel Angel Paolino",
     "contactTitle": "Owner",
@@ -1040,7 +1040,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "TRADH",
+    "id": "TRADH",
     "companyName": "Tradição Hipermercados",
     "contactName": "Anabela Domingues",
     "contactTitle": "Sales Representative",
@@ -1053,7 +1053,7 @@
     "fax": "(11) 555-2168"
   },
   {
-    "ID": "TRAIH",
+    "id": "TRAIH",
     "companyName": "Trail's Head Gourmet Provisioners",
     "contactName": "Helvetius Nagy",
     "contactTitle": "Sales Associate",
@@ -1066,7 +1066,7 @@
     "fax": "(206) 555-2174"
   },
   {
-    "ID": "VAFFE",
+    "id": "VAFFE",
     "companyName": "Vaffeljernet",
     "contactName": "Palle Ibsen",
     "contactTitle": "Sales Manager",
@@ -1079,7 +1079,7 @@
     "fax": "86 22 33 44"
   },
   {
-    "ID": "VICTE",
+    "id": "VICTE",
     "companyName": "Victuailles en stock",
     "contactName": "Mary Saveley",
     "contactTitle": "Sales Agent",
@@ -1092,7 +1092,7 @@
     "fax": "78.32.54.87"
   },
   {
-    "ID": "VINET",
+    "id": "VINET",
     "companyName": "Vins et alcools Chevalier",
     "contactName": "Paul Henriot",
     "contactTitle": "Accounting Manager",
@@ -1105,7 +1105,7 @@
     "fax": "26.47.15.11"
   },
   {
-    "ID": "WANDK",
+    "id": "WANDK",
     "companyName": "Die Wandernde Kuh",
     "contactName": "Rita Müller",
     "contactTitle": "Sales Representative",
@@ -1118,7 +1118,7 @@
     "fax": "0711-035428"
   },
   {
-    "ID": "WARTH",
+    "id": "WARTH",
     "companyName": "Wartian Herkku",
     "contactName": "Pirkko Koskitalo",
     "contactTitle": "Accounting Manager",
@@ -1131,7 +1131,7 @@
     "fax": "981-443655"
   },
   {
-    "ID": "WELLI",
+    "id": "WELLI",
     "companyName": "Wellington Importadora",
     "contactName": "Paula Parente",
     "contactTitle": "Sales Manager",
@@ -1144,7 +1144,7 @@
     "fax": "NULL"
   },
   {
-    "ID": "WHITC",
+    "id": "WHITC",
     "companyName": "White Clover Markets",
     "contactName": "Karl Jablonski",
     "contactTitle": "Owner",
@@ -1157,7 +1157,7 @@
     "fax": "(206) 555-4115"
   },
   {
-    "ID": "WILMK",
+    "id": "WILMK",
     "companyName": "Wilman Kala",
     "contactName": "Matti Karttunen",
     "contactTitle": "Owner/Marketing Assistant",
@@ -1170,7 +1170,7 @@
     "fax": "90-224 8858"
   },
   {
-    "ID": "WOLZA",
+    "id": "WOLZA",
     "companyName": "Wolski  Zajazd",
     "contactName": "Zbyszek Piestrzeniewicz",
     "contactTitle": "Owner",
