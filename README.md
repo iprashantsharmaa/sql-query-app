@@ -2,6 +2,10 @@
 This project is a SQL query tool that allows users to input custom SQL queries and obtain the query results in the form of a table.
 It provides a user-friendly interface to interact with a database and view the query results conveniently.
 
+## Framework
+
+- React ^18.2.0
+
 ## Setup
 - Install NodeJS (latest)
 - Install dependencies: `npm install`
@@ -33,8 +37,17 @@ Your app is ready to be deployed!
 
 ## Material UI
 
-Material UI components like Button, Icons etc are used.
+- Material UI components like Button, Icons etc are used.
 
 ## Tan-stack
 
-Tan-stack React table is used to render the table
+- Tan-stack React table is used to render the table.
+
+## Papaparse
+
+- Used to create csv data, to export data.
+
+## PageLoadTime 
+
+- The FCM is 0.3 sec.
+- Measured it from chrome dev tools.
