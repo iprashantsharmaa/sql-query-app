@@ -9,6 +9,8 @@ import Pagination from './Pagination';
 function Table({
   columns,
   data,
+  hasNextPage,
+  hasPrevPage,
   onPrevPageClick,
   onNextPageClick,
 }) {
@@ -80,6 +82,8 @@ function Table({
         </table>
       </div>
       <Pagination
+        hasPrevPage={hasPrevPage}
+        hasNextPage={hasNextPage}
         onPrevPage={handlePrevPageClick}
         onNextPage={handleNextPageClick}
       />

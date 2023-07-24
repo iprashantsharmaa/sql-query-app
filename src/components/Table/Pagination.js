@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Pagination({
+  hasNextPage,
+  hasPrevPage,
   onPrevPage,
   onNextPage,
 }) {
@@ -11,15 +13,17 @@ function Pagination({
     <div className="flex w-full items-center justify-center space-x-10 !mt-2">
       <Button
         variant="contained"
-        className="!min-w-0 !text-white !bg-blue-600"
+        className="!min-w-0 !text-white"
         onClick={onPrevPage}
+        disabled={!hasPrevPage}
       >
         <ArrowBackIcon />
       </Button>
       <Button
         variant="contained"
-        className="!min-w-0 !text-white !bg-blue-600"
+        className="!min-w-0 !text-white"
         onClick={onNextPage}
+        disabled={!hasNextPage}
       >
         <ArrowForwardIcon />
       </Button>

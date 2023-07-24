@@ -28,6 +28,7 @@
     "no-shadow": "off",
     "no-underscore-dangle": "off",
     "no-unused-vars": "off",
+    "no-alert": "off",
     "react/jsx-filename-extension": [
       1,
       {

@@ -4,6 +4,7 @@ import React, {
 } from 'react';
 import Button from '@mui/material/Button';
 import ViewSidebarRoundedIcon from '@mui/icons-material/ViewSidebarRounded';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import TextArea from '@mui/material/TextareaAutosize';
 import Tooltip from '@mui/material/Tooltip';
 import Sidebar from '../components/Sidebar';
@@ -29,6 +30,8 @@ function Dashboard() {
     hasNextPage,
     prevPage,
     nextPage,
+    exportData,
+    exportLoading,
   } = useGetQueryData();
 
   const columns = useMemo(() => getColumns(data[0] ?? {}), [data]);
@@ -54,7 +57,7 @@ function Dashboard() {
       >
         <form
           onSubmit={handleSubmit}
-          className="w-full flex space-x-2 items-center justify-center"
+          className="w-full flex space-x-4 items-center justify-center"
         >
           <TextArea
             className="bg-white border border-gray-200 rounded w-2/5 p-3 focus:outline-none drop-shadow-2xl resize-none"
@@ -71,6 +74,22 @@ function Dashboard() {
           >
             Search
           </Button>
+          {!!data.length && (
+            <Tooltip
+              title="Downlaod CSV"
+              placement="right"
+              arrow
+            >
+              <Button
+                variant="contained"
+                className="!min-w-0 !text-sm !text-white !rounded !flex !items-center !justify-center !py-3"
+                onClick={exportData}
+                disabled={exportLoading}
+              >
+                <FileDownloadIcon fontSize="small" />
+              </Button>
+            </Tooltip>
+          )}
         </form>
         {loading && <span>Loading...</span>}
         {!loading && data.length > 0 && (

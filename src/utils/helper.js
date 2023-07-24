@@ -22,3 +22,17 @@ export const getColumns = (dataObj) => (
     ]
   ), [])
 );
+
+export const downloadFileViaBlob = (
+  fileBlob,
+  fileName,
+  type,
+) => {
+  if (fileBlob) {
+    const dataUrl = URL.createObjectURL(fileBlob);
+    const link = document.createElement('a');
+    link.download = `${fileName}.${type}`;
+    link.href = dataUrl;
+    link.click();
+  }
+};
