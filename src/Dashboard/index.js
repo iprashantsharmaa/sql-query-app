@@ -19,6 +19,7 @@ function Dashboard() {
     addHistory,
     deleteHistory,
     starredHistory,
+    clearAllHistories,
   } = useHistories();
   const [sqlQuery, setSqlQuery] = useState('');
   const [showHistory, setShowHistory] = useState(false);
@@ -125,6 +126,7 @@ function Dashboard() {
         onClose={() => setShowHistory(false)}
         onDeleteHistory={deleteHistory}
         onStarredClick={starredHistory}
+        onClearAllClick={clearAllHistories}
       />
     </div>
   );

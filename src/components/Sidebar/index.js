@@ -19,6 +19,7 @@ function Sidebar({
   onHistoryClick,
   onDeleteHistory,
   onStarredClick,
+  onClearAllClick,
 }) {
   const [searchQuery, setSearchQuery] = useState('');
   const sideBarClasses = clsx(
@@ -33,24 +34,34 @@ function Sidebar({
 
   return (
     <div className={sideBarClasses}>
-      <div className="w-full flex items-center space-x-12">
+      <div className="w-full flex items-center justify-between">
         <Button
           variant="text"
-          className="!text-black !min-w-0 w-4 !mx-3"
+          className="!text-black !min-w-0 w-4 !ml-3"
           onClick={onClose}
         >
           <ArrowForwardIcon fontSize="small" />
         </Button>
-        <p className="font-semibold text-black text-right">
+        <p className="flex-1 font-semibold text-black text-center">
           Previous Queries
         </p>
+        <Button
+          variant="text"
+          className={clsx(
+            '!text-xs !text-black !capitalize !cursor-pointer hover:!underline !p-0',
+            { '!hidden': !filteredHistories.length },
+          )}
+          onClick={onClearAllClick}
+        >
+          Clear All
+        </Button>
       </div>
       <div className="flex-1 px-3 py-2">
         <SearchBar searchQuery={searchQuery} onChange={setSearchQuery} />
         {!histories?.length && (
-        <span className="text-black text-sm">
+        <p className="text-black text-sm text-center">
           No Previous Queries yet
-        </span>
+        </p>
         )}
         <div className="flex flex-col justify-start space-y-1">
           {filteredHistories?.length > 0 && filteredHistories.map((history) => (

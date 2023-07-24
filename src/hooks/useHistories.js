@@ -31,6 +31,10 @@ function useHistories() {
     setHistoriesMap(updatedMap);
   };
 
+  const clearAllHistories = (id) => {
+    setHistoriesMap({});
+  };
+
   const starredHistory = (id) => {
     const updatedMap = {
       ...historiesMap,
@@ -47,6 +51,7 @@ function useHistories() {
     addHistory,
     deleteHistory,
     starredHistory,
+    clearAllHistories,
   };
 }
 
