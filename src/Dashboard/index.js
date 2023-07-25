@@ -7,6 +7,7 @@ import ViewSidebarRoundedIcon from '@mui/icons-material/ViewSidebarRounded';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import TextArea from '@mui/material/TextareaAutosize';
 import Tooltip from '@mui/material/Tooltip';
+import CircularProgress from '@mui/material/CircularProgress';
 import Sidebar from '../components/Sidebar';
 import Table from '../components/Table';
 import useHistories from '../hooks/useHistories';
@@ -25,7 +26,8 @@ function Dashboard() {
   const [showHistory, setShowHistory] = useState(false);
   const {
     data = [],
-    loading,
+    isFetching,
+    isFetched,
     refetch: getData,
     hasPrevPage,
     hasNextPage,
@@ -92,8 +94,13 @@ function Dashboard() {
             </Tooltip>
           )}
         </form>
-        {loading && <span>Loading...</span>}
-        {!loading && data.length > 0 && (
+        {isFetching && (
+          <CircularProgress
+            color="primary"
+            size={40}
+          />
+        )}
+        {!isFetching && data.length > 0 && (
           <Table
             data={data}
             columns={columns}
@@ -102,6 +109,9 @@ function Dashboard() {
             onPrevPageClick={prevPage}
             onNextPageClick={nextPage}
           />
+        )}
+        {isFetched && !data.length && !!sqlQuery && (
+          <span>No data found</span>
         )}
       </div>
       {!showHistory && (
